@@ -1,0 +1,21 @@
+local gameId = game.PlaceId
+
+local scripts = {
+    [142823291] = "https://raw.githubusercontent.com/iwannaplaygame0-lab/MM2/refs/heads/main/MM2.txt",
+
+    [10449761463] = "https://raw.githubusercontent.com/khengie0987-tech/Main/refs/heads/main/obfuscated_script.lua.txt"
+}
+
+local url = scripts[gameId]
+
+if url then
+    local success, err = pcall(function()
+        loadstring(game:HttpGet(url))()
+    end)
+
+    if not success then
+        warn("Script failed to load: " .. tostring(err))
+    end
+else
+    warn("No script available for this game ID: " .. tostring(gameId))
+end
