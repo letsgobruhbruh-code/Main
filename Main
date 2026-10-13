@@ -1,9 +1,9 @@
 local gameId = game.PlaceId
 
 local scripts = {
-    [142823291] = "https://raw.githubusercontent.com/iwannaplaygame0-lab/MM2/refs/heads/main/MM2.txt",
+    [142823291] = "https://raw.githubusercontent.com/iwannaplaygame0-lab/MM2/refs/heads/main/nothing%20hub%20mm2.txt",
 
-    [10449761463] = "https://raw.githubusercontent.com/khengie0987-tech/Main/refs/heads/main/obfuscated_script.lua.txt"
+    [10449761463] = ""
 }
 
 local url = scripts[gameId]
