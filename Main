@@ -1,12 +1,23 @@
 
 local gameId = game.PlaceId
 
+local bloxFruitsUrl = "https://raw.githubusercontent.com/iwannaplaygame0-lab/Blox-fruit/refs/heads/main/blox%20fruit.txt"
+
 local scripts = {
     -- Murder Mystery 2
     [142823291] = "https://raw.githubusercontent.com/iwannaplaygame0-lab/MM2/refs/heads/main/nothing%20hub%20mm2.txt",
 
-    -- Blox Fruits
-    [2753915549] = "https://raw.githubusercontent.com/iwannaplaygame0-lab/Blox-fruit/refs/heads/main/blox%20fruit.txt",
+    -- Blox Fruits: Sea 1
+    [2753915549] = bloxFruitsUrl,
+    [85211729168715] = bloxFruitsUrl,
+
+    -- Blox Fruits: Sea 2
+    [4442272183] = bloxFruitsUrl,
+    [79091703265657] = bloxFruitsUrl,
+
+    -- Blox Fruits: Sea 3
+    [7449423635] = bloxFruitsUrl,
+    [100117331123089] = bloxFruitsUrl,
 
     -- Other game
     [10449761463] = ""
